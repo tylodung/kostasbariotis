@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     author: 'Kostas',
     title: `Kostas' Blog`,
-    siteUrl: `http://kostasa.site`,
+    siteUrl: `https://kostasa.site`,
     description: `I'm Kostas Bariotis, a web developer, a proud wanderer and a passionate doer. My mission is to write clean and efficient code, to solve problems on the web and to learn something more.`
   },
   plugins: [
@@ -48,7 +48,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Kostas Bariotis",
+        name: "Kostas",
         short_name: "KBariotis",
         start_url: "/",
         theme_color: "#676d9c",
@@ -133,7 +133,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `http://kostasa.site`,
+        siteUrl: `https://kostasa.site`,
       }
     },
     {
