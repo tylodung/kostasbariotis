@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    author: 'Kostas Bariotis!',
-    title: `Kostas Bariotis' Blog`,
-    siteUrl: `http://kostasbariotis.info/`,
+    author: 'Kostas',
+    title: `Kostas' Blog`,
+    siteUrl: `http://kostasa.site`,
     description: `I'm Kostas Bariotis, a web developer, a proud wanderer and a passionate doer. My mission is to write clean and efficient code, to solve problems on the web and to learn something more.`
   },
   plugins: [
@@ -133,7 +133,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `http://kostasbariotis.info/`,
+        siteUrl: `http://kostasa.site`,
       }
     },
     {
