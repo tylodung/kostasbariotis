@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     author: 'Kostas',
     title: `Kostas' Blog`,
-    siteUrl: `https://kostasa.site`,
+    siteUrl: `https://thientuco.net`,
     description: `I'm Kostas Bariotis, a web developer, a proud wanderer and a passionate doer. My mission is to write clean and efficient code, to solve problems on the web and to learn something more.`
   },
   plugins: [
